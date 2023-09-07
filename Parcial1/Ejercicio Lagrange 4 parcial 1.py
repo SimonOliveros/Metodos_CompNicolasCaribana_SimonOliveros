@@ -35,3 +35,5 @@ _x = sym.Symbol('x',real=True)
 polinomio = Interpolate(_x,X,Y)
 polinomio = sym.simplify(polinomio)
 print(polinomio)
+
+#Esto nos da que el coeficiente lineal es 0.363970234266202 y el cuadrático es - 0.0554912422401579
